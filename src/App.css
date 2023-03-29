@@ -1,0 +1,118 @@
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.tabs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.tab {
+  display: inline-block;
+  padding: 10px;
+  font-size: 16px;
+  color: #333;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  cursor: pointer;
+  background-color: #fff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.tab.active {
+  background-color: #ccc;
+  color: #fff;
+}
+
+.tab:hover {
+  background-color: #f7f7f7;
+}
+
+.tab-panel {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+@media screen and (max-width: 600px) {
+  .tabs-header {
+    flex-direction: column;
+  }
+
+  .tab {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+select {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  background-color: #f2f2f2;
+  margin: 10px 0;
+}
+
+.react-tabs__tab {
+  color: #555;
+  background-color: #D6EEEE;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin-right: 10px;
+}
+
+.react-tabs__tab--selected {
+  background-color: #45a049;
+  border-color: #D6EEEE;
+  border-bottom-color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  }
+  
+  .logo img {
+  height: 50px;
+  margin-right: 10px;
+  }
+  
+  .logo h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  }
+  
+  
+  
+  header {
+  background-color: #f2f2f2;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
